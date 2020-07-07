@@ -1,0 +1,8 @@
+Simple console utils for splitting/combining Android
+boot.img/recovery.img for making simple changes in ramdisk fs.
+We need to write them since what we found in Web ("bootimg_tools")
+doesn't support Samsung image format (it is slightly different from
+standard AOSP: there is a one more section -- Device Tree section).
+
+Thanks to https://forum.xda-developers.com/showthread.php?t=2319018 for
+reference.
