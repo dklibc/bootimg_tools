@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ramdisk
+find . | cpio -o -H newc | lzma >../ramdisk.img

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -rf ramdisk
+mkdir ramdisk
+cd ramdisk && lzma -dc ../ramdisk.img | cpio -i
